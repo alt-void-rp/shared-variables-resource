@@ -1,0 +1,24 @@
+{
+  "name": "shared-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "tsc",
+    "preversion": "yarn run test",
+    "release": "yarn version --no-git-tag-version"
+  },
+  "keywords": [
+    "altmp",
+    "altv",
+    "node",
+    "node-module",
+    "js-module",
+    "gta",
+    "gta5",
+    "gtav"
+  ],
+  "author": "mironoouv",
+  "license": "MIT",
+  "type": "module"
+}
