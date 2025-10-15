@@ -1,6 +1,7 @@
 import * as alt from 'alt-client';
 import * as native from 'natives';
 import * as GAME_CONTROLS from 'alt:game-controls'
+import * as CHARACTER_EDITOR from 'alt:character-editor'
 import { LOCATIONS } from '../constants/locations.js';
 
 /**
@@ -118,6 +119,10 @@ export function createLocalUser() {
         _player.rot = userRot;
 
         GAME_CONTROLS.moveFromToAir('down', 1);
+
+        const Editor = CHARACTER_EDITOR.Editor;
+        Editor.InitEditor();
+
     }
 
 
